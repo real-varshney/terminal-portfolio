@@ -3,9 +3,6 @@ import prompts from "../assets/templates/prompts.json";
 import { availableCommands } from "../assets/constants/Constants";
 import highlightDynamicLinks from "./highlightDynamicLinks";
 
-
-
-type CommandMap = Record<string, string>;
 export const XTermMethods = {
   terminalState: { originalLineY: 1, linesJumped: 0 },
   history: [] as string[],
@@ -145,8 +142,7 @@ export const XTermMethods = {
     term.write(`\x1b[2K\r${prompt}${historyCommand}`); // Clears current line & writes history
   },
 
-  handleLine: (term: Terminal, prompt: string, domEvent: KeyboardEvent) => {
-    const { originalLineY } = XTermMethods.terminalState;
+  handleLine: (term: Terminal, _: string, domEvent: KeyboardEvent) => {
     const { cursorY, cursorX } = term.buffer.active;
     var totalLength = term.buffer.active.getLine(cursorY)?.length;
     if (
