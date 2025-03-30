@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+@theme {
+  --font-roboto: "Roboto", sans-serif; 
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+div {
+    text-underline-offset: 3px !important;
+}

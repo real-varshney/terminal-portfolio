@@ -1,0 +1,52 @@
+  {
+    "VISIBLE": {
+      "WELCOME": "Welcome to Vishal Varshney's Portfolio!\r\nType 'help' to see available commands.\r\n",
+      "HELP": "Available commands:\r\n - ls projects: List all projects\r\n - about: Learn more about me\r\n - sudo game: Start the hidden game\r\n - clear: Clear the terminal\r\n - help: Show this help message\r\n",
+      "LS PROJECTS": "D-Cosmo - AI chatbot for the medical field\r\nPortfolio GitHub - This portfolio project\r\n deploy - Deploy the portfolio\r\n",
+      "ABOUT": "Hi, I'm Vishal Varshney, a developer passionate about AI and web development.\r\n",
+      "UNKNOWN": "Command not found. Type 'help' for a list of commands.\r\n",
+      "DEPLOY": " Initiating Request\r\n Now deploying the portfolio...\r\n DEPLOYING...\r\n deployed successfully\r\n click here to view the portfolio : vishalvarsheny.info\r\n"
+    },
+    "HIDDEN": {
+      "sudo game": "Launching game...\r\n",
+      "clear": "\u001b[2J\u001b[H",
+      "cls": "\u001b[2J\u001b[H",
+      "LINKS":[
+        {
+          "type": "URL",
+          "key": "D-Cosmo",
+          "value": "https://www.github.com/vishalvarshney/D-Cosmo"
+        },
+        {
+          "type": "URL",
+          "key": "vishalvarsheny.info",
+          "value": "https://www.google.com" 
+        },
+        {
+          "type": "Text",
+          "key": "Portfolio GitHub",
+          "value": "cd ./src/assets/templates/portfolio"
+        },
+        {
+          "type": "Text",
+          "key": "Deploy",
+          "value": "deploy --prod"
+        },
+        {
+          "type": "Text",
+          "key": "ls projects",
+          "value": "ls projects"
+        },
+        {
+          "type": "Text",
+          "key": "about",
+          "value": "about"
+        },
+        {
+          "type": "Text",
+          "key": "help",
+          "value": "help"
+        }
+      ]
+    }
+  }
